@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cashier</title>
+    <link rel="stylesheet" href="assets/style/bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <main class="content"></main>
+    <img class="bg" src="assets/img/background.png"/>
+    <div class="login-modal">
+        <div class="container fluid">
+            <div class="row p-3">
+                <div class="col-sm-12 p-3 d-flex justify-content-center">
+                    <img class="logo" src="assets/img/logo/logo-login.png"/>
+                </div>
+                <div class="col-sm-12 p-2">
+                    <div class="div-input"><input type="username" id="username" class="form-input" placeholder="username"/></div>
+                </div>
+                <div class="col-sm-12 p-2">
+                    <div class="div-input"><input type="password" id="password" class="form-input" placeholder="password"/></div>
+                </div>
+                <div class="col-sm-12 p-2">
+                    <button class="btn-ok-full" onclick="login()">Login</button>
+                </div>
+                <div class="col-sm-12 p-2">
+                    <button class="btn-cancel-full">Exit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-brand-logo">
+        <div class="container fluid">
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-center pb-3">
+                    <img class="brand-logo" src="assets/img/logo/banner-logo1.png"/>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <span class="logo-tagline">Your Trusted Partner</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="/assets/js/jquery.js"></script>
+    <script src="../venv/lib/python3.8/site-packages/eel/eel.js"></script>
+    <script src="route.js"></script>
+    <script src="main.js"></script>
+</html>

@@ -1,0 +1,205 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: ubuntu-medium;
+    src: url(/assets/font/ubuntu/Ubuntu-M.ttf);
+}
+
+body {
+    background-color: #ecf0f3;
+    font-family: ubuntu-medium;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-modal {
+    background-color: #ecf0f3;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    border-radius: 40px;
+    box-shadow:
+        -13px -13px 20px rgba(255, 255, 255, 0.8),
+        12px 12px 12px 0 rgba(70, 70, 70, 0.12);
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 20px 10px 20px 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.div-input {
+    border-radius: 20px;
+    box-shadow:
+        inset 8px 8px 8px rgba(70, 70, 70, 0.12),
+        inset -8px -8px 8px rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow:
+        -5px -5px 5px rgba(255, 255, 255, 1),
+        3px 3px 3px rgba(70, 70, 70, 0.5);
+}
+
+.logo-tagline {
+    font-weight: bolder;
+    color: azure;
+    font-size: 40px;
+    box-shadow:
+        -3px -3px 3px rgba(255, 255, 255, 1),
+        3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    background-color: rgba(70, 70, 70, 0.5);
+}
+
+.btn-ok-full {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display:block;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bolder;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow:
+        -3px -3px 3px rgba(255, 255, 255, 1),
+        3px 3px 3px rgba(70, 70, 70, 0.5);
+    transition: 0.5s;
+}
+
+.btn-ok-full:hover {
+    background: #2fdbb6;
+}
+
+.btn-ok-full:active {
+    background: #1da88a;
+}
+
+.btn-ok-full:focus {
+    outline: none;
+    border: none;
+}
+
+.btn-cancel-full {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display:block;
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bolder;
+    text-align: center;
+    background: #e2c107;
+    box-shadow:
+        -3px -3px 3px rgba(255, 255, 255, 1),
+        3px 3px 3px rgba(70, 70, 70, 0.5);
+    transition: 0.5s;
+}
+
+.btn-cancel-full:hover {
+    background: #f5d316;
+}
+
+.btn-cancel-full:active {
+    background: #caad07;
+}
+
+.btn-cancel-full:focus {
+    outline: none;
+    border: none;
+}
+
+.home-brand-logo {
+    position: absolute;
+    right: 0px;
+    top: 30%;
+}
+
+.brand-logo {
+    width: 300px;
+    box-shadow:
+        -3px -3px 3px rgba(255, 255, 255, 1),
+        3px 3px 3px rgba(70, 70, 70, 1);
+    border-radius: 10px;
+}
+
+.content {
+    position: fixed;
+    z-index: 1000;
+    background-color: #dadcdd;
+    width: 100%;
+    height: 100%;
+}
+
+.transaction-table {
+    padding: 20px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.template {
+    padding: 10px;
+}
+
+.product-label {
+    padding: 30px;
+    font-size: 50px;
+    height: 150px;
+}
+
+.clock {
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    color: #0daf8c;
+}
+
+.div-shadow {
+    border-radius: 20px;
+    box-shadow:
+        -5px -5px 5px rgba(255, 255, 255, 0.7),
+        5px 5px 5px rgba(70, 70, 70, 0.5);
+}
+
+.div-shadow-inset {
+    border-radius: 20px;
+    box-shadow:
+        -5px -5px 5px rgba(255, 255, 255, 0.7),
+        5px 5px 5px rgba(70, 70, 70, 0.5),
+        inset 8px 8px 8px rgba(70, 70, 70, 0.12),
+        inset -8px -8px 8px rgba(255, 255, 255, 0.8);
+}
+
+.product-grand-total {
+    padding: 30px;
+    font-size: 25px;
+    height: 150px;
+}
